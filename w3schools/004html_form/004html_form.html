@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form name="dangkytiki" action="" method="post">
+        <div>
+            <label> Họ tên </label>
+            <input type="text" name="hoten" value="" placeholder="Nhập họ tên vào đây "/>
+        </div>
+
+        <div>
+            <label> SĐT </label>
+            <input type="number" name="sodienthoai" value="" placeholder="số điện thoại "/>
+        </div>
+
+        <div>
+            <label> Email </label>
+            <input type="email" name="email" value="" placeholder="Nhập email vào đây "/>
+        </div>
+
+        <div>
+            <label> Password </label>
+            <input type="password" name="password" value="" placeholder=""/>
+        </div>
+
+        <div>
+            <label> Input ẩn </label>
+            <input type="hidden" name="id" value=""/>
+        </div>
+
+        <div>
+            <p> Nội dung </p>
+            <textarea name="noidung" rows="25"></textarea>
+        </div>
+
+        <div>
+            <label> Giới tính </label>
+            <input type="radio" name="gioitinh" value="nu" checked/> Nữ
+            <input type="radio" name="gioitinh" value="nam"/> Nam
+        </div>
+
+        <div>
+            <label> Năm học </label>
+            <select name="monhoc" multiple>
+                <option value="toan"> Toán </option>
+                <option value="van"> văn  </option>
+                <option value="anh"> Anh  </option>
+                <option value="ly" > Lý  </option>
+                <option value="hoa"> Hóa  </option>
+                <option value="su"> Sử  </option>
+                <option value="dia> Địa  </option>
+                <option value="gdcd"> GDCD </option>
+                <option value="triethoc"> Triết học  </option>
+                <option value="abc"> ABC </option>
+                <option value="cnpm"> CNPM </option>
+                <option value="amnhac"> Âm nhạc  </option>
+            </select>
+        </div>
+
+        <div>
+            <input type="checkbox" name="dongy" value="1"/>
+            Nhận các thông tin và chương trình khuyến mãi của Tiki qua email.
+            Khi bạn nhấn Đăng ký, bạn đã đồng ý thực hiện mọi giao dịch mua bán theo điều kiện sử dụng và chính sách của Tiki.
+        </div>
+
+        <div>
+            <input type="submit" name="submit" value="Gửi dữ liệu "/><br>
+            <button> Không gửi dữ liệu </button>
+        </div>
+    </form>
+</body>
+</html>
